@@ -1,0 +1,160 @@
+/* @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* PORT=8001  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: blanchedalmond;
+  /* text-align: center; */
+  /* font-family: 'Orbitron', sans-serif; */
+  background: rgb(48, 173, 173);
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* .loginpage_container {
+} */
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  /* width: 60%; */
+}
+.form-control {
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  border: 3px solid rgb(22, 80, 80);
+  border-radius: 40px;
+  background: blanchedalmond;
+  color: rgb(22, 80, 80);
+  font-size: 24px;
+  outline:none;
+}
+.form-control::placeholder {
+  padding-left: 15px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+  background: rgb(26, 136, 136);
+  border: 2px solid rgb(18, 71, 71);
+  border-radius: 35px;
+  margin: 10px;
+  outline:none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.homepage_container {
+  display: flex;
+  justify-content: space-between;
+  /* background: rgb(26, 160, 71); */
+  box-shadow: 0px 4px 3px rgb(0, 0, 0);
+  /* flex-direction: column; */
+  /* padding: 30px; */
+}
+.homepage_container h2 {
+  padding: 20px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.createProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  opacity: .9;
+}
+.createProduct::placeholder {
+  padding-left: 20px;
+}
+.createInput {
+    margin: 5px;
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(0, 74, 74);
+    border-radius: 15px;
+    background: blanchedalmond;
+    color: rgb(22, 80, 80);
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+}
+.description {
+  margin: 5px;
+  border: 1px solid rgb(0, 74, 74);
+  border-radius: 15px;
+  background: blanchedalmond;
+  color: rgb(22, 80, 80);
+  width: 450px;
+  height: 250px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.btn-addNewProduct {
+  width: auto;
+  padding: 20px;
+}
+/* .header {
+  position: fixed;
+  background: rgb(22, 80, 80);
+  height: 200px;
+  width: 100%;
+}
+
+
+.infoStyle {
+  display: block;
+  padding: 70px 5px;
+
+}
+.formStyle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.formStyle input {
+  width: 30%;
+  height: 60px;
+  border: 3px solid rgb(22, 80, 80);
+  border-radius: 40px;
+  background: blanchedalmond;
+  color: rgb(22, 80, 80);
+  font-size: 24px;
+  outline:none;
+}
+.formStyle button {
+  width: 30%;
+  height: 60px;
+  background: rgb(20, 155, 155);
+  border: 3px solid rgb(18, 71, 71);
+  border-radius: 35px;
+  font-size: 28px;
+  margin: 10px;
+  outline:none;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+/* .error {
+  color: rgb(211, 58, 58);
+  font-size: 24px;
+} */
+
+
